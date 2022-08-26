@@ -21,7 +21,7 @@
     --color-light:rgba(255, 255, 255, 0.6);
     --container-width-lg: 75%;
     --container-width-md: 86%;
-    --container-width-ms: 90%;
+    --container-width-sm: 90%;
 }
 html { 
     scroll-behavior: smooth;
@@ -52,8 +52,7 @@ h1 {
     font-size: 1.5rem;
 }
 section {
-    margin-top: 8rem;
-    height: 100vh;  
+    margin-top: 8rem; 
 
 }
 section > h2, section >h5 {
@@ -104,7 +103,7 @@ img {
     object-fit: cover;
 }
 
-@media screen and(max-width: 1024px) {
+@media (max-width: 1024px) {
     .container {
         width: var(--container-width-md);
 
@@ -114,7 +113,7 @@ img {
     }
 }
 
-@media screen and(max-width: 600px) {
+@media (max-width: 600px) {
     .container {
         width: var(--container-width-sm);
 
